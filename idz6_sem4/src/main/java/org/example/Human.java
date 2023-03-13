@@ -57,14 +57,4 @@ class Human {
     public int hashCode() {
         return this.name.hashCode() + this.surname.hashCode() + this.patronymic.hashCode() + this.age;
     }
-
-    public ArrayList<Human> ListDemo(ArrayList<Human> humans, Human human) {
-        ArrayList<Human> same_surname = new ArrayList<>();
-        for (int i = 0; i < humans.size(); i++) {
-            if (human.surname.equals(humans.get(i).name)) {
-                same_surname.add(humans.get(i));
-            }
-        }
-        return same_surname;
-    }
 }
