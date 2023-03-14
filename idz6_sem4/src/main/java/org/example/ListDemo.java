@@ -1,7 +1,7 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
+import java.util.*;
+import java.util.Comparator;
 
 public class ListDemo {
     public ArrayList<Human> SameSurname(ArrayList<Human> humans, Human human) {
@@ -24,12 +24,45 @@ public class ListDemo {
         return better_humans;
     }
 
-    public ArrayList<ArrayList<Integer>> NotСross(ArrayList<ArrayList<Integer>> collections, ArrayList<Integer> collection) {
-        for (int i = 0; i < collections.size(); i++) {
-            for (int j = 0; j < collections.get(i).size(); j++) {
-                if (collections.get(i).get(j) != collection.get(i)) ;
+    public ArrayList<Set<Integer>> NotСross(ArrayList<Set<Integer>> collections, Set<Integer> collection) {
+        ArrayList<Set<Integer>> not_cross = new ArrayList<>();
+        boolean flag = true;
+        for (Set<Integer> integers : collections) {
+            for (int numb : integers) {
+                for (int numbers : collection) {
+                    if (numb == numbers) {
+                        flag = false;
+                        break;
+                    }
+                }
+                if (flag) {
+                    not_cross.add(integers);
+                    flag = true;
+                }
             }
         }
-        return collections;
+        return not_cross;
+    }
+
+    public ArrayList<Human> Eldest(ArrayList<? extends Human> humans) {
+        ArrayList<Human> eldest = new ArrayList<>();
+        eldest.add(new Human());
+        for (Human human : humans) {
+            if ((human.getAge() >= eldest.get(0).getAge())) {
+                if (human.getAge() == eldest.get(0).getAge()) {
+                    eldest.add(human);
+                } else {
+                    eldest.clear();
+                    eldest.add(human);
+                }
+            }
+        }
+        return eldest;
+    }
+
+    public ArrayList<Human> Sort(ArrayList<Human> humans) {
+        humans.sort(new ComparatorPersonsDemo());
+        return humans;
     }
 }
+

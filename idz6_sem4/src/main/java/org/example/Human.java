@@ -16,6 +16,13 @@ class Human {
         this.age = input_age;
     }
 
+    Human() {
+        this.surname = "";
+        this.name = "";
+        this.patronymic = "";
+        this.age = 0;
+    }
+
     public String getName() {
         return this.name;
     }
