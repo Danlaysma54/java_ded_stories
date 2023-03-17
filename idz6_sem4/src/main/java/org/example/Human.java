@@ -23,6 +23,13 @@ class Human {
         this.age = 0;
     }
 
+    Human(Human input) {
+        this.name = input.name;
+        this.surname = input.surname;
+        this.patronymic = input.patronymic;
+        this.age = input.age;
+    }
+
     public String getName() {
         return this.name;
     }
