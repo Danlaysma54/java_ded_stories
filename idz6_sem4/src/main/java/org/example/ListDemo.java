@@ -18,7 +18,7 @@ public class ListDemo {
         ArrayList<Human> better_humans = new ArrayList<>();
         for (Human arrhuman : humans) {
             if (!arrhuman.equals(human)) {
-                better_humans.add(arrhuman);
+                better_humans.add(new Human(arrhuman));
             }
         }
         return better_humans;
@@ -35,11 +35,13 @@ public class ListDemo {
                         break;
                     }
                 }
-                if (flag) {
-                    not_cross.add(integers);
-                    flag = true;
-                }
+
             }
+            if (flag) {
+                not_cross.add(integers);
+                flag = true;
+            }
+            flag = true;
         }
         return not_cross;
     }
@@ -63,6 +65,9 @@ public class ListDemo {
     public ArrayList<Human> Sort(ArrayList<Human> humans) {
         humans.sort(new ComparatorPersonsDemo());
         return humans;
+    }
+    public Set<Human>  Coincidence(Map<Integer,Human> map,Set<Integer> collection){
+        return
     }
 }
 
