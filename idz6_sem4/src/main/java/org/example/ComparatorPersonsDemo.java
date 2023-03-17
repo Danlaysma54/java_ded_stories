@@ -1,9 +1,9 @@
 package org.example;
 
-public class ComparatorPersonsDemo implements Comparator<Human>{
+public class ComparatorPersonsDemo<T extends Human> implements Comparator<T>{
 
     @Override
-    public int compare(Human a, Human b) {
+    public int compare(T a,T b) {
         return (a.getSurname() + a.getName() + a.getPatronymic()).compareTo(b.getSurname() + b.getName() + b.getPatronymic());
     }
 }

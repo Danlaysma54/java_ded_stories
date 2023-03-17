@@ -66,8 +66,32 @@ public class ListDemo {
         humans.sort(new ComparatorPersonsDemo());
         return humans;
     }
-    public Set<Human>  Coincidence(Map<Integer,Human> map,Set<Integer> collection){
-        return
+
+    public Set<Human> Coincidence(Map<Integer, Human> map, Set<Integer> collection) {
+        Set<Human> humans = new HashSet<>();
+        for (int numb : collection) {
+            if (map.get(numb) != null)
+                humans.add(map.get(numb));
+        }
+        return humans;
+    }
+
+    public ArrayList<Integer> Over18(Map<Integer, Human> map) {
+        ArrayList<Integer> over18 = new ArrayList<>();
+        for (Map.Entry<Integer, Human> entry : map.entrySet()) {
+            if (entry.getValue().getAge() >= 18) {
+                over18.add(entry.getKey());
+            }
+        }
+        return over18;
+    }
+
+    public Map<Integer, Human> NewMap(Set<Human> humans) {
+        Map<Integer, Human> new_map = new HashMap<>();
+        for (Human human : humans) {
+            new_map.put(human.getAge(),human);
+        }
+        return new_map;
     }
 }
 
