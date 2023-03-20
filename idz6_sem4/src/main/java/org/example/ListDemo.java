@@ -86,12 +86,52 @@ public class ListDemo {
         return over18;
     }
 
-    public Map<Integer, Human> NewMap(Set<Human> humans) {
-        Map<Integer, Human> new_map = new HashMap<>();
-        for (Human human : humans) {
-            new_map.put(human.getAge(),human);
+    public Map<Integer, Integer> NewMapAge(Map<Integer, Human> map) {
+        Map<Integer, Integer> new_map = new HashMap<>();
+        for (int numb : map.keySet()) {
+            new_map.put(numb, map.get(numb).getAge());
         }
         return new_map;
     }
+
+
+    public Map<Integer, ArrayList<Human>> NewMap(Set<Human> humans) {
+        Map<Integer, ArrayList<Human>> new_map = new HashMap<>();
+        for (Human human : humans) {
+            if (new_map.get(human.getAge()) == null) {
+                new_map.put(human.getAge(), new ArrayList<>());
+                new_map.get(human.getAge()).add(human);
+            } else {
+                new_map.get(human.getAge()).add(human);
+            }
+        }
+        return new_map;
+    }
+
+
+    public Map<Integer, Map<Character, ArrayList<Human>>> MapInMap(Set<Human> humans) {
+        ListDemo listDemo = new ListDemo();
+        Map<Integer, ArrayList<Human>> map = new HashMap<>();
+        Map<Integer, Map<Character, ArrayList<Human>>> map_in_map = new HashMap<>();
+        map = new HashMap<>(listDemo.NewMap(humans));
+        for (int numbs : map.keySet()) {
+            for (int i = 0; i < map.get(numbs).size(); i++) {
+                if (map_in_map.get(numbs) == null) {
+                    map_in_map.put(numbs, new HashMap<>());
+                    map_in_map.get(numbs).put(map.get(numbs).get(i).getSurname().charAt(0), new ArrayList<>(Arrays.asList(map.get(numbs).get(i))));
+                } else {
+                    if (map_in_map.get(numbs).get(map.get(numbs).get(i).getSurname().charAt(0)) == null) {
+                        map_in_map.get(numbs).put(map.get(numbs).get(i).getSurname().charAt(0), new ArrayList<>(Arrays.asList(map.get(numbs).get(i))));
+                    } else {
+                        map_in_map.get(numbs).get(map.get(numbs).get(i).getSurname().charAt(0)).add(map.get(numbs).get(i));
+                    }
+
+                }
+            }
+        }
+        return map_in_map;
+    }
+
+
 }
 

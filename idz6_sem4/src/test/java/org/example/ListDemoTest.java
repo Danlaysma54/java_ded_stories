@@ -115,6 +115,7 @@ public class ListDemoTest {
         humans_out_test.add(humans_out.get(3).hashCode());
         Assert.assertEquals(humans_test, humans_out_test);
     }
+
     @Test
     public void CoincidenceTest() {
         Map<Integer, Human> map = new HashMap<>();
@@ -149,6 +150,25 @@ public class ListDemoTest {
     }
 
     @Test
+    public void newMapAgeTest() {
+        Human test = new Human("Ayasman", "Daniil", "Vitalievich", 17);
+        Human test1 = new Human("Lyasman", "Daniil", "Vitalievich", 21);
+        Human test2 = new Human("Byasman", "Daniil", "Vitalievich", 15);
+        Human test3 = new Human("Baasman", "Daniil", "Vitalievich", 20);
+        Map<Integer, Human> new_map = new HashMap<>();
+        Map<Integer, Integer> test_map = new HashMap<>();
+        new_map.put(1, test);
+        new_map.put(2, test1);
+        new_map.put(3, test2);
+        new_map.put(4, test3);
+        test_map.put(1, 17);
+        test_map.put(2, 21);
+        test_map.put(3, 15);
+        test_map.put(4, 20);
+        Assert.assertEquals(test_map, listDemo.NewMapAge(new_map));
+    }
+
+    @Test
     public void NewMapTest() {
         Set<Human> map = new HashSet<>();
         Set<Integer> numbers = new HashSet<>(Arrays.asList(2, 4));
@@ -160,11 +180,48 @@ public class ListDemoTest {
         map.add(test1);
         map.add(test2);
         map.add(test3);
-        Map<Integer, Human> new_map = new HashMap<>();
-        new_map.put(17, test);
-        new_map.put(21, test1);
-        new_map.put(15, test2);
-        new_map.put(20, test3);
+        Map<Integer, ArrayList<Human>> new_map = new HashMap<>();
+        new_map.put(17, new ArrayList<>(List.of(test)));
+        new_map.put(21, new ArrayList<>(List.of(test1)));
+        new_map.put(15, new ArrayList<>(List.of(test2)));
+        new_map.put(20, new ArrayList<>(List.of(test3)));
         Assert.assertEquals(new_map, listDemo.NewMap(map));
+    }
+
+    @Test
+    public void MapInMapTest() {
+        Set<Human> map = new HashSet<>();
+        Human test = new Human("Ayasman", "Daniil", "Vitalievich", 17);
+        Human test1 = new Human("Lyasman", "Daniil", "Vitalievich", 21);
+        Human test2 = new Human("Byasman", "Daniil", "Vitalievich", 15);
+        Human test3 = new Human("Baasman", "Daniil", "Vitalievich", 20);
+        Human test4 = new Human("Saasman", "Daniil", "Vitalievich", 20);
+        Human test5 = new Human("Saasman", "Mark", "Vitalievich", 20);
+        Human test6 = new Human("Baasman", "Mark", "Vitalievich", 20);
+        map.add(test);
+        map.add(test1);
+        map.add(test2);
+        map.add(test3);
+        map.add(test4);
+        map.add(test5);
+        map.add(test6);
+        Map<Integer, Map<Character, ArrayList<Human>>> map_test = new HashMap<>();
+        map_test.put(17, new HashMap<>());
+        map_test.get(17).put('A', new ArrayList<>());
+        map_test.get(17).get('A').add(test);
+        map_test.put(21, new HashMap<>());
+        map_test.get(21).put('L', new ArrayList<>());
+        map_test.get(21).get('L').add(test1);
+        map_test.put(15, new HashMap<>());
+        map_test.get(15).put('B', new ArrayList<>());
+        map_test.get(15).get('B').add(test2);
+        map_test.put(20, new HashMap<>());
+        map_test.get(20).put('B', new ArrayList<>());
+        map_test.get(20).get('B').add(test6);
+        map_test.get(20).put('S', new ArrayList<>());
+        map_test.get(20).get('S').add(test4);
+        map_test.get(20).get('S').add(test5);
+        map_test.get(20).get('B').add(test3);
+        Assert.assertEquals(map_test, listDemo.MapInMap(map));
     }
 }
