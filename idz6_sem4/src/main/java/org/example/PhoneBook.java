@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,6 +9,8 @@ public class PhoneBook {
     Map<Human, ArrayList<String>> phonebook;
 
     public void AddPhone(Human human, String number) {
+        if (GetHuman(number) != null)
+            throw new IllegalArgumentException("This number is used");
         this.phonebook.get(human).add(number);
     }
 

@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e609ded8-84da-4f57-863f-46ad5998c979" name="Changes" comment="change main and add some new classes">
+    <list default="true" id="e609ded8-84da-4f57-863f-46ad5998c979" name="Changes" comment="did from 1 to 10 with test">
+      <change beforePath="$PROJECT_DIR$/../IDZ_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IDZ_3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ListDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ListDemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/ListDemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/ListDemoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PhoneBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PhoneBookTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +21,17 @@
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/ListDemo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/example/ListDemoTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,21 +61,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/danlaysma/java_ded_stories/idz1_sem4_better"
+    "last_opened_file_path": "/home/danlaysma/java_ded_stories/IDZ_3"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+      <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PhoneBookTest.addPhoneTest">
-    <configuration name="ListDemoTest.MapInMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DataTest.dataIteratorTest0">
+    <configuration name="DataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="idz6_sem4" />
       <extension name="coverage">
         <pattern>
@@ -80,14 +86,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ListDemoTest" />
-      <option name="METHOD_NAME" value="MapInMapTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListDemoTest.NewMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataTest.dataIteratorTest0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="idz6_sem4" />
       <extension name="coverage">
         <pattern>
@@ -96,14 +101,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ListDemoTest" />
-      <option name="METHOD_NAME" value="NewMapTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataTest" />
+      <option name="METHOD_NAME" value="dataIteratorTest0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListDemoTest.Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataTest.testIterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="idz6_sem4" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +117,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ListDemoTest" />
-      <option name="METHOD_NAME" value="Test3" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataTest" />
+      <option name="METHOD_NAME" value="testIterator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListDemoTest.newMapAgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataTest.testIterator1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="idz6_sem4" />
       <extension name="coverage">
         <pattern>
@@ -128,14 +133,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ListDemoTest" />
-      <option name="METHOD_NAME" value="newMapAgeTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataTest" />
+      <option name="METHOD_NAME" value="testIterator1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBookTest.addPhoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBookTest.addPhoneTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="idz6_sem4" />
       <extension name="coverage">
         <pattern>
@@ -145,7 +150,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.PhoneBookTest" />
-      <option name="METHOD_NAME" value="addPhoneTest" />
+      <option name="METHOD_NAME" value="addPhoneTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PhoneBookTest.addPhoneTest" />
-        <item itemvalue="JUnit.ListDemoTest.MapInMapTest" />
-        <item itemvalue="JUnit.ListDemoTest.newMapAgeTest" />
-        <item itemvalue="JUnit.ListDemoTest.NewMapTest" />
-        <item itemvalue="JUnit.ListDemoTest.Test3" />
+        <item itemvalue="JUnit.DataTest.dataIteratorTest0" />
+        <item itemvalue="JUnit.DataTest.testIterator1" />
+        <item itemvalue="JUnit.DataTest" />
+        <item itemvalue="JUnit.DataTest.testIterator" />
+        <item itemvalue="JUnit.PhoneBookTest.addPhoneTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -202,16 +207,5 @@
     <MESSAGE value="add dependencies in pox.xml idz6_sem4" />
     <MESSAGE value="change main and add some new classes" />
     <option name="LAST_COMMIT_MESSAGE" value="change main and add some new classes" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/ListDemoTest.java</url>
-          <line>224</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
