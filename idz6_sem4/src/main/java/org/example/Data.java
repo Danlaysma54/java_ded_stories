@@ -31,22 +31,36 @@ public class Data implements Iterable<Integer> {
     @Override
     public Iterator<Integer> iterator() {
         return new Iterator<Integer>() {
-            private int currIndexData;
+            private int CurrIndexData;
             private int CurrIndexGroup;
+            private Iterator<Integer> iterator = bunch_of_groups[this.CurrIndexData].iterator();
+           // private   Iterator<Integer> iterator2 = bunch_of_groups[this.CurrIndexData].iterator();
 
             @Override
             public Integer next() {
-                if (bunch_of_groups[this.currIndexData].information.length > CurrIndexGroup && bunch_of_groups[this.currIndexData].information.length > 0) {
-                    return bunch_of_groups[this.currIndexData].information[this.CurrIndexGroup++];
-                } else {
-                    this.CurrIndexGroup = 0;
-                    return bunch_of_groups[++this.currIndexData].information[this.CurrIndexGroup++];
+
+                while (!this.iterator.hasNext() && this.CurrIndexData + 1 < bunch_of_groups.length) {
+                    this.CurrIndexData++;
+                    this.iterator = bunch_of_groups[this.CurrIndexData].iterator();
                 }
+                return iterator.next();
             }
 
             @Override
             public boolean hasNext() {
-                return currIndexData + 1 < bunch_of_groups.length || CurrIndexGroup < bunch_of_groups[currIndexData].information.length;
+                int i = CurrIndexData;
+                boolean flag = false;
+                while (i < bunch_of_groups.length) {
+                    Iterator<Integer> iterator2 = bunch_of_groups[i].iterator();
+                    if (iterator2.hasNext())
+                    {
+                        iterator2.next();
+                        flag=true;
+                    }
+                    i++;
+                }
+                return flag;
+                // return iterator.hasNext() || CurrIndexData + 1 < bunch_of_groups.length;
             }
 
             @Override

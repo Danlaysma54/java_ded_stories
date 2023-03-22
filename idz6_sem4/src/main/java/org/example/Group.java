@@ -1,6 +1,8 @@
 package org.example;
 
-public class Group {
+import java.util.Iterator;
+
+public class Group implements Iterable<Integer> {
     int group_id;
     int[] information;
 
@@ -25,5 +27,22 @@ public class Group {
 
     public void setInformation(int index, int information) {
         this.information[index] = information;
+    }
+
+    @Override
+    public Iterator<Integer> iterator() {
+        return new Iterator<Integer>() {
+            private int CurrInd;
+
+            @Override
+            public boolean hasNext() {
+                return this.CurrInd < information.length;
+            }
+
+            @Override
+            public Integer next() {
+                return information[this.CurrInd++];
+            }
+        };
     }
 }
