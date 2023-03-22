@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e609ded8-84da-4f57-863f-46ad5998c979" name="Changes" comment="did 11">
+    <list default="true" id="e609ded8-84da-4f57-863f-46ad5998c979" name="Changes" comment="squash! did 11 and almost 12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Data$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Data$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Group.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/DataTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +20,20 @@
       <list>
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="05b43a9543a53d64d16ada09f7883e1bec16fea2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/ListDemo.java" root0="FORCE_HIGHLIGHTING" />
@@ -79,7 +82,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DataTest.dataIteratorTest0">
+  <component name="RunManager" selected="JUnit.DataTest.getTest">
     <configuration name="DataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="idz6_sem4" />
       <extension name="coverage">
@@ -111,22 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTest.dataIteratorTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="idz6_sem4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DataTest" />
-      <option name="METHOD_NAME" value="dataIteratorTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DataTest.dataIteratorTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="idz6_sem4" />
       <extension name="coverage">
@@ -138,6 +125,22 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.DataTest" />
       <option name="METHOD_NAME" value="dataIteratorTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataTest.getTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="idz6_sem4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DataTest" />
+      <option name="METHOD_NAME" value="getTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,10 +164,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DataTest.dataIteratorTest0" />
-        <item itemvalue="JUnit.DataTest.dataIteratorTest2" />
+        <item itemvalue="JUnit.DataTest.getTest" />
         <item itemvalue="JUnit.DataTest" />
-        <item itemvalue="JUnit.DataTest.dataIteratorTest1" />
+        <item itemvalue="JUnit.DataTest.dataIteratorTest2" />
+        <item itemvalue="JUnit.DataTest.dataIteratorTest0" />
         <item itemvalue="JUnit.DataTest.testIterator1" />
       </list>
     </recent_temporary>
@@ -225,26 +228,5 @@
     <MESSAGE value="change main and add some new classes" />
     <MESSAGE value="did 11" />
     <option name="LAST_COMMIT_MESSAGE" value="did 11" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/DataTest.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/DataTest.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/DataTest.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

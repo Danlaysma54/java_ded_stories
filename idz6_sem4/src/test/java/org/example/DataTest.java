@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 import static org.junit.Assert.*;
@@ -69,5 +70,15 @@ public class DataTest {
             i++;
         }
         Assert.assertArrayEquals(result, groupArr);
+    }
+    @Test
+    public void getTest(){
+        var data = new Data("data", new Group(0, 1, 2, 3),
+                new Group(3, 4, 5, 6, 7, 8),
+                new Group(4, 9, 10, 11, 12, 13, 14),
+                new Group(5, 15, 16), new Group(1), new Group(2));
+        ArrayList<Integer> result = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16));
+
+        Assert.assertArrayEquals(result.toArray(), DataDemo.getAll(data).toArray());
     }
 }

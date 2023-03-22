@@ -34,33 +34,24 @@ public class Data implements Iterable<Integer> {
             private int CurrIndexData;
             private int CurrIndexGroup;
             private Iterator<Integer> iterator = bunch_of_groups[this.CurrIndexData].iterator();
-           // private   Iterator<Integer> iterator2 = bunch_of_groups[this.CurrIndexData].iterator();
 
             @Override
             public Integer next() {
-
-                while (!this.iterator.hasNext() && this.CurrIndexData + 1 < bunch_of_groups.length) {
-                    this.CurrIndexData++;
-                    this.iterator = bunch_of_groups[this.CurrIndexData].iterator();
-                }
                 return iterator.next();
             }
 
             @Override
             public boolean hasNext() {
-                int i = CurrIndexData;
-                boolean flag = false;
-                while (i < bunch_of_groups.length) {
-                    Iterator<Integer> iterator2 = bunch_of_groups[i].iterator();
-                    if (iterator2.hasNext())
-                    {
-                        iterator2.next();
-                        flag=true;
+                if (!this.iterator.hasNext()) {
+                    while (!this.iterator.hasNext()) {
+                        this.CurrIndexData++;
+                        if (CurrIndexData >= bunch_of_groups.length) {
+                            return false;
+                        }
+                        this.iterator = bunch_of_groups[this.CurrIndexData].iterator();
                     }
-                    i++;
                 }
-                return flag;
-                // return iterator.hasNext() || CurrIndexData + 1 < bunch_of_groups.length;
+                return true;
             }
 
             @Override
