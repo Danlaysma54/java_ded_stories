@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e609ded8-84da-4f57-863f-46ad5998c979" name="Changes" comment="squash! did 11 and almost 12">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Data$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Data$1.class" afterDir="false" />
-    </list>
+    <list default="true" id="e609ded8-84da-4f57-863f-46ad5998c979" name="Changes" comment="did  12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679378671794</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="did  12">
+      <created>1679452304644</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679452304644</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +229,7 @@
     <MESSAGE value="add dependencies in pox.xml idz6_sem4" />
     <MESSAGE value="change main and add some new classes" />
     <MESSAGE value="did 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="did 11" />
+    <MESSAGE value="did  12" />
+    <option name="LAST_COMMIT_MESSAGE" value="did  12" />
   </component>
 </project>

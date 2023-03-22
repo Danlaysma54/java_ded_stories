@@ -1,0 +1,166 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_3_22_23,_7_57_AM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_3_22_23,_7_57_AM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_3_22_23,_7_57_AM_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	
++++ b/.idea/shelf/Uncommitted_changes_before_Update_at_3_22_23,_7_57_AM_[Changes]/shelved.patch	
+@@ -0,0 +1,100 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"e609ded8-84da-4f57-863f-46ad5998c979\" name=\"Changes\" comment=\"change main and add some new classes\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/ListDemo.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/ListDemo.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/example/ListDemoTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/org/example/ListDemoTest.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/classes/org/example/ListDemo.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/org/example/ListDemo.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/target/test-classes/org/example/ListDemoTest.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/test-classes/org/example/ListDemoTest.class\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"JUnit5 Test Class\" />\n        <option value=\"Class\" />\n        <option value=\"JUnit4 Test Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"useMavenConfig\" value=\"true\" />\n      </MavenGeneralSettings>\n    </option>\n    <option name=\"importingSettings\">\n      <MavenImportingSettings>\n        <option name=\"workspaceImportEnabled\" value=\"true\" />\n      </MavenImportingSettings>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"2MxusB2GoOVadWhf5Fpu149qtkg\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary\": \"JUnit4\",\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4\": \"\",\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5\": \"\",\n    \"last_opened_file_path\": \"/home/danlaysma/java_ded_stories/idz1_sem4_better\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"org.example\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"JUnit.PhoneBookTest.addPhoneTest\">\n    <configuration name=\"ListDemoTest.MapInMapTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"idz6_sem4\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"org.example\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.ListDemoTest\" />\n      <option name=\"METHOD_NAME\" value=\"MapInMapTest\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"ListDemoTest.NewMapTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"idz6_sem4\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"org.example\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.ListDemoTest\" />\n      <option name=\"METHOD_NAME\" value=\"NewMapTest\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"ListDemoTest.Test3\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"idz6_sem4\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"org.example\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.ListDemoTest\" />\n      <option name=\"METHOD_NAME\" value=\"Test3\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"ListDemoTest.newMapAgeTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"idz6_sem4\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"org.example\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.ListDemoTest\" />\n      <option name=\"METHOD_NAME\" value=\"newMapAgeTest\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"PhoneBookTest.addPhoneTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"idz6_sem4\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"org.example\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.PhoneBookTest\" />\n      <option name=\"METHOD_NAME\" value=\"addPhoneTest\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.PhoneBookTest.addPhoneTest\" />\n        <item itemvalue=\"JUnit.ListDemoTest.MapInMapTest\" />\n        <item itemvalue=\"JUnit.ListDemoTest.newMapAgeTest\" />\n        <item itemvalue=\"JUnit.ListDemoTest.NewMapTest\" />\n        <item itemvalue=\"JUnit.ListDemoTest.Test3\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"e609ded8-84da-4f57-863f-46ad5998c979\" name=\"Changes\" comment=\"\" />\n      <created>1678721760278</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1678721760278</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"add dependencies in pox.xml idz6_sem4\">\n      <created>1678721871859</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1678721871859</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"change main and add some new classes\">\n      <created>1678723661604</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1678723661604</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"add dependencies in pox.xml idz6_sem4\" />\n    <MESSAGE value=\"change main and add some new classes\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"change main and add some new classes\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/test/java/org/example/ListDemoTest.java</url>\n          <line>224</line>\n          <option name=\"timeStamp\" value=\"2\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	
+++++ b/.idea/workspace.xml	
++@@ -4,13 +4,7 @@
++     <option name="autoReloadType" value="SELECTIVE" />
++   </component>
++   <component name="ChangeListManager">
++-    <list default="true" id="e609ded8-84da-4f57-863f-46ad5998c979" name="Changes" comment="change main and add some new classes">
++-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ListDemo.java" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ListDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ListDemoTest.java" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ListDemo.class" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/ListDemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/ListDemoTest.class" afterDir="false" />
++-    </list>
+++    <list default="true" id="e609ded8-84da-4f57-863f-46ad5998c979" name="Changes" comment="change main and add some new classes" />
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++@@ -27,7 +21,13 @@
++     </option>
++   </component>
++   <component name="Git.Settings">
+++    <option name="RECENT_BRANCH_BY_REPOSITORY">
+++      <map>
+++        <entry key="$PROJECT_DIR$/.." value="main" />
+++      </map>
+++    </option>
++     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+++    <option name="RESET_MODE" value="HARD" />
++   </component>
++   <component name="MarkdownSettingsMigration">
++     <option name="stateVersion" value="1" />
++@@ -52,16 +52,16 @@
++     <option name="hideEmptyMiddlePackages" value="true" />
++     <option name="showLibraryContents" value="true" />
++   </component>
++-  <component name="PropertiesComponent"><![CDATA[{
++-  "keyToString": {
++-    "RunOnceActivity.OpenProjectViewOnStart": "true",
++-    "RunOnceActivity.ShowReadmeOnStart": "true",
++-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
++-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
++-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
++-    "last_opened_file_path": "/home/danlaysma/java_ded_stories/idz1_sem4_better"
+++  <component name="PropertiesComponent">{
+++  &quot;keyToString&quot;: {
+++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+++    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+++    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+++    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+++    &quot;last_opened_file_path&quot;: &quot;/home/danlaysma/java_ded_stories/idz1_sem4_better&quot;
++   }
++-}]]></component>
+++}</component>
++   <component name="RecentsManager">
++     <key name="CreateTestDialog.Recents.Supers">
++       <recent name="" />
++@@ -154,10 +154,10 @@
++     <recent_temporary>
++       <list>
++         <item itemvalue="JUnit.PhoneBookTest.addPhoneTest" />
++-        <item itemvalue="JUnit.ListDemoTest.MapInMapTest" />
++-        <item itemvalue="JUnit.ListDemoTest.newMapAgeTest" />
+++        <item itemvalue="JUnit.ListDemoTest.Test3" />
++         <item itemvalue="JUnit.ListDemoTest.NewMapTest" />
++-        <item itemvalue="JUnit.ListDemoTest.Test3" />
+++        <item itemvalue="JUnit.ListDemoTest.newMapAgeTest" />
+++        <item itemvalue="JUnit.ListDemoTest.MapInMapTest" />
++       </list>
++     </recent_temporary>
++   </component>
++@@ -192,7 +192,19 @@
++       <map>
++         <entry key="MAIN">
++           <value>
++-            <State />
+++            <State>
+++              <option name="FILTERS">
+++                <map>
+++                  <entry key="branch">
+++                    <value>
+++                      <list>
+++                        <option value="HEAD" />
+++                      </list>
+++                    </value>
+++                  </entry>
+++                </map>
+++              </option>
+++            </State>
++           </value>
++         </entry>
++       </map>
+Index: ../affin/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../affin/.idea/workspace.xml b/../affin/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	
++++ b/../affin/.idea/workspace.xml	
+@@ -0,0 +1,48 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="1923a2aa-16ec-402b-9846-7c04ce0438b9" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/../idz6_sem4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../idz6_sem4/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../idz6_sem4/src/main/java/org/example/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/../idz6_sem4/src/main/java/org/example/Human.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../idz6_sem4/src/main/java/org/example/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../idz6_sem4/src/main/java/org/example/ListDemo.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../idz6_sem4/src/test/java/org/example/ListDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../idz6_sem4/src/test/java/org/example/ListDemoTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../idz6_sem4/target/classes/org/example/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/../idz6_sem4/target/classes/org/example/Human.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../idz6_sem4/target/classes/org/example/ListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../idz6_sem4/target/classes/org/example/ListDemo.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../idz6_sem4/target/test-classes/org/example/CollectionsDemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../idz6_sem4/target/test-classes/org/example/CollectionsDemoTest.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../idz6_sem4/target/test-classes/org/example/ListDemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../idz6_sem4/target/test-classes/org/example/ListDemoTest.class" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectId" id="2N52ZpbZfgEypHaDo3ayEhl4mcd" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "last_opened_file_path": "/home/danlaysma/java_ded_stories/idz6_sem4"
++  }
++}]]></component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="1923a2aa-16ec-402b-9846-7c04ce0438b9" name="Changes" comment="" />
++      <created>1678939680950</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1678939680950</updated>
++    </task>
++    <servers />
++  </component>
++</project>
+\ No newline at end of file
