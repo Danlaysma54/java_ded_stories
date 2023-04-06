@@ -36,8 +36,20 @@ public class InputOutput {
         Writer writer = new PrintWriter(new StringWriter());
         for (int numbs : arr) {
             writer.write(numbs);
+            writer.write(" ");
         }
+        writer.close();
         return writer;
+    }
+
+    static ArrayList<Integer> ReadFromPose(RandomAccessFile randomAccessFile, int pose) throws IOException {
+        ArrayList<Integer> arr = new ArrayList<>();
+    //    randomAccessFile.seek(pose * 4);
+        int z;
+        z = randomAccessFile.read();
+        randomAccessFile.close();
+
+        return arr;
     }
 }
 

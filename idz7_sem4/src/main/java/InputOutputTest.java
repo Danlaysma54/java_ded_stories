@@ -34,8 +34,16 @@ public class InputOutputTest {
 
     @Test
     public void WriteFromArrayTest() throws IOException {
-        int[] int_test={1,2,3};
-        assertArrayEquals(int_test,InputOutput.WriterFromIntArray(int_test).);
-
+        int[] int_test = {1, 2, 3};
+        byte[] byte_test = {1, 2, 3};
+        Writer writer = InputOutput.WriterFromIntArray(int_test);
+/*       ByteArrayOutputStream byteArrayOutputStream = new InputStream(new ByteArrayOutputStream(writer));
+        assertArrayEquals(int_test,);
+*/
+    }
+    @Test
+    public void ReadFromRandomFile() throws IOException {
+        ArrayList<Integer> arr =new ArrayList<>(List.of(7,8,9));
+        assertArrayEquals(arr.toArray(),InputOutput.ReadFromPose(new RandomAccessFile("name.txt","r"),6).toArray());
     }
 }
